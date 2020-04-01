@@ -14,10 +14,12 @@
 .container {
     width: 1920px;
     height: 1080px;
-    background-image: url("ggdcfiller.png");
+    background-image: url("ggdc_logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+	background-attachment: fixed;
+    
 }​
 
 #button {
@@ -26,4 +28,11 @@
      padding:0!important;
      color:#069;
      cursor:pointer;
+}
+
+#overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
 }
